@@ -1,0 +1,694 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(15, 145, 233);
+    /* background-image: url(Background.jpg); */
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a:hover {
+    color: white;
+  }
+
+.logo{
+    width: 150px;
+    height: 140px;
+    cursor: pointer;
+    margin: 10px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+h1{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.content p{
+    margin: 20px auto;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 25px;
+    text-align: right;
+    padding-right: 30px;
+}
+button{
+    width: 100px;
+    padding: 15px 0;
+    text-align:center;
+    margin:20px 150px ;
+    float: right;
+}
+
+.lorem p{
+    color: #37414a;
+    font-size: large;
+}
+.lorem{
+    display: flex;
+    /* justify-content: center; */
+    margin-top: 20px;
+    border: 2px solid rgb(28, 157, 212);
+    background-color: rgb(28, 157, 212);
+    width: 700px;
+    padding: 20px;
+    gap: 80px;
+}
+
+p{
+    text-align: left;
+}
+
+.img img{
+    margin-right: 10px;
+}
+
+.img img{
+    width: 100%; 
+   max-width:100px;  
+   height: 100px;
+   width: 100px;
+   /* border-radius:50%; */
+   padding-left: 20px;
+   
+}
+
+.lorem{
+    margin-top: 150px;
+    align-items: center;
+}
+.mm{
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-top: auto;
+    margin-left: auto;
+}
+/* footer{
+text-align: center;
+color: black;
+margin-top: 30px;
+margin-bottom: 20px;
+} */
+
+.rating{
+    color: yellow;
+}
+
+/* profile */
+
+.profile{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #f2f2f2; */
+    align-items: center;
+    padding: 20px 0px;
+    margin-top: 3px;
+}
+.profile-lists{
+    column-count: 2;
+}
+.profile-lists li{
+    padding: 10px 20px;
+    list-style: none;
+    color: white;
+    font-weight: 900;
+}
+.carousel-item img{
+    height: 500px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* About Us */
+
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+} */
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(15, 145, 233);
+    /* background-image: url(Background.jpg); */
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a:hover {
+    color: blue;
+  }
+
+  .logo{
+    width: 150px;
+    height: 140px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.image-column{
+    width: 50%;
+}
+
+/* .description-column {
+    width: 50%;
+    padding: 20px;
+} */
+
+.about h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+}
+ 
+.about p {
+    font-size: 1rem;
+    color: black;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    text-align: center;
+}
+ 
+.about-info {
+    margin: 2rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+ 
+.about-img {
+    width: 20rem;
+    height: 20rem;
+ 
+}
+ 
+.about-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: contain;
+}
+ 
+.about-info p {
+    font-size: 1.2rem;
+    margin: 0 2rem;
+    text-align: justify;
+}
+button{
+    width: 100px;
+    padding: 15px 0;
+    text-align:center;
+    margin:20px 150px ;
+    float: right;
+}
+
+.btn1{
+    /* color: blue; */
+    background: rgb(60, 211, 227);
+}
+
+/* End About Us. */
+
+/* Services */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.banner {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(15, 145, 233);
+    /* background-image: url(Background.jpg); */
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a:hover {
+    color: white
+}
+
+.logo {
+    width: 150px;
+    height: 140px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.title h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 42px;
+}
+
+.title h1::after {
+    content: "";
+    height: 4px;
+    width: 230px;
+    background-color: #000;
+    /* display: block; */
+    margin: auto;
+}
+
+.Services {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px auto;
+    text-align: center;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 20px;
+    padding: 20px 20px;
+    background-color: #efefef;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: rgb(136, 198, 227);
+    transition: 0.4s ease;
+}
+
+.icon {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    font-size: 28px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.card p {
+    font-size: 17px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    color: #5e5e5e;
+}
+
+.button {
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(60, 211, 227);
+    padding: 8px 12px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    /* transition: transform 0.5s; */
+}
+
+.button:hover {
+    background-color: cornflowerblue;
+    transition: 0.4s ease;
+}
+
+footer{
+    text-align: center;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    }
+
+    /* End Services */
+
+    /* Contact Us */
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    
+    }
+    .banner{
+        width: 100%;
+        height: 100vh;
+        /* background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg); */
+        background-size: cover;
+        background-position: center;
+    }
+    .navbar{
+        width: 85%;
+        margin: auto;
+        padding: 35px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo{
+        width: 120px;
+        cursor: pointer;
+    }
+    .navbar ul li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+        position: relative;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+    }
+    .navbar ul li::after{
+        content: '';
+        height: 3px;
+        width: 0%;
+        background: blue;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        transition: 0.5s;
+    }
+    .navbar ul li:hover::after{
+    width: 100%;
+    }
+    
+    button{
+        width: 200px;
+        padding: 15px 0;
+        text-align: center;
+        margin: 20px 10px;
+        border-radius: 25px;
+        font-weight: bold;
+        border: 2px solid blue;
+        background: transparent;
+        color: #fff;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    span{
+        background: blue;
+        height: 100%;
+        width: 0%;
+        border-radius: 25px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+        transition: 0.5s;
+    }
+    
+    button:hover span{
+        width: 100%;
+    }
+    
+    button:hover{
+        border: none;
+    }
+    
+    body{
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contact-section{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .contact-info{
+        color: black;
+        max-width: 500px;
+        line-height: 65px;
+        padding-left: 50px;
+        font-size: 18px;
+    }
+    
+    .contact-info{
+        margin-right: 20px;
+        font-size: 25px;
+    }
+    
+    .contact-form{
+        max-width: 700px;
+        margin-right: 50px;
+    }
+    
+    .contact-info, .contact-form{
+        flex:  1;
+    }
+    
+    .contact-form h2{
+        color: black;
+        text-align: center;
+        font-size: 35px;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+    
+    .contact-form .text-box{
+        background: #fff;
+        border: none;
+        width: calc(50% - 10px);
+        height: 50px;
+        padding: 12px;
+        font-size: 15px;
+        border-radius: 5px;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+        margin-bottom: 20px;
+        opacity: 0.9;
+    }
+    
+    .contact-form .text-box:first-child{
+        margin-bottom: 15px;
+    }
+    
+    .contact-form textarea{
+        background: #fff;
+        color: #fff;
+        border: none;
+        width: 100%;
+        padding: 12px;
+        font-size: 15px;
+        min-height: 200px;
+        max-height: 400px;
+        resize: vertical;
+        border-radius: 5px;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+        margin-bottom: 20px;
+        opacity: 0.9;
+    }
+    
+    .contact-form .send-btn{
+        float: right;
+        background: rgb(60, 211, 227);
+        color: #fff;
+        border: none;
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+        transition-property: background;
+    }
+    
+    .contact-form .send-btn:hover{
+        background: rgb(140, 140, 199);
+    }
+    
+    @media screen and (max-width: 950px){
+        .contact-section{
+        flex-direction: column;
+        }
+    
+        .contact-info, .contact-form{
+        margin: 30px 50px;
+        }
+        .contact-form h2{
+            font-size: 30px;
+        }
+    
+        .contact-form .text-box{
+            width: 100%;
+        }
+    
+    }
+    
+    /* css for alert msg*/
+    .alert-success{
+        z-index: 1;
+        background: #D4EDDA;
+        font-size: 18px;
+        position: fixed;
+        right: 0;
+        min-width: 420px;
+        padding: 20px 40px;
+        top: 10px;
+        border-left: 8px solid #3ad66e;
+        border-radius: 4px;
+    }
+    
+    .alert-error{
+        z-index: 1;
+        background: #fff3cd;
+        font-size: 18px;
+        position: fixed;
+        right: 0;
+        min-width: 420px;
+        padding: 20px 40px;
+        top: 10px;
+        border-left: 8px solid blue;
+        border-radius: 4px;
+    }
+    
+    .icon{
+        margin-right: 20px;
+    }
+
+    /* .tacbox {
+        display:block;
+        padding: 1em;
+        margin: 1em;
+        border: 2px solid #ddd;
+        background-color: #eee;
+        max-width: 800px;
+      }
+      
+      input {
+        height: 1em;
+        width: 1em;
+        vertical-align: middle;
+      } */
+
+      .gender{
+        color: gray;
+        margin-left: 6px;
+        text-align: left;
+      }
+
+      .radio{
+        margin-left: 10px;
+        color: gray;        
+      }
+
+      .cat{
+        margin-top: 0.5px;
+        text-align: left;
+        color: grey;
+        padding-bottom: 4px;
+        margin-left: 9px;
+      }
+
+      .price{
+        color: black;
+        margin-bottom: 10px;
+      }
+
+        /* End Contact Us */
+
+        /* Animation */
+
+        .navbar h1{
+            font-size: 50px;
+            margin-top: 2px; 
+            color: transparent;
+            -webkit-text-stroke: 1px #dee2e7;
+            background: url(images/light.jpg);
+            -webkit-background-clip: text;
+            background-position: 0 0;
+            animation: back 20s linear infinite;
+        }
+        
+        @keyframes back{
+        100%{
+            background-position: 200px 0;
+        }
+        
+        }
+        .navbar p{
+            margin: 20px auto;
+            font-weight: 100;
+            line-height: 25px;
+        }
